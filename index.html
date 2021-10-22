@@ -4,45 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="wilih=device-wilih, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="modern-normalize/modern-normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Studiov</title>
   </head>
   <body>
-    <header>
-      <nav class="manu">
-        <a href="./index.html" class="logo start"
-          ><span class="decoration_leters">Web</span>Studio</a
-        >
-        <ul>
-          <li class="menu-list">
-            <a class="menu-item" href="/Agencja">Agencja</a>
-          </li>
-          <li class="menu-list">
-            <a class="menu-item" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-list">
-            <a class="menu-item" href="/Kontakt">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="adres_link" href=":mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="adres_link" href="tel:+48123456789">+48 123 456 789</a>
+    <header class="head_container">
+      <div class="container">
+        <nav class="manu">
+          <a href="./index.html" class="logo start link"
+            ><span class="decoration_leters">Web</span>Studio</a
+          >
+          <ul class="nav_container list">
+            <li class="menu-list">
+              <a class="menu-item link" href="/Agencja">Agencja</a>
+            </li>
+            <li class="menu-list">
+              <a class="menu-item link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-list">
+              <a class="menu-item link" href="/Kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="adres_link">
+          <a class="link head_link" href=":mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link head_link" href="tel:+48123456789">+48 123 456 789</a>
+        </div>
+      </div>
     </header>
     <main>
-      <section class="main_section_1">
-        <div>
+      <section class="main_section_1 container">
+        <div class="section_1_items">
           <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <!-- <img src="images/bg.jpg" alt="main" /> -->
           <button type="button" class="button">Zamów usługe</button>
         </div>
       </section>
-      <section class="main_section_2">
+      <section class="main_section_2 section container">
         <ul>
           <li>
             <h2>Lorem Ipsum</h2>
@@ -83,42 +89,44 @@
         </ul>
       </section>
 
-      <section class="main_section_3">
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
-            <img
-              src="images/main_image4.jpg"
-              alt="zdjecie 1"
-              width="370"
-              height="294"
-              alt="zdjecie 1"
-            />
-          </li>
-          <li>
-            <img
-              src="images/main_image5.jpg"
-              alt="zdjecie 2"
-              width="370"
-              height="294"
-              alt="zdjecie 2"
-            />
-          </li>
-          <li>
-            <img
-              src="images/main_image6.jpg"
-              alt="zdjecie 3"
-              width="370"
-              height="294"
-              alt="zdjecie 3"
-            />
-          </li>
-        </ul>
+      <section class="main_section_3 section container">
+        <div>
+          <h2>Czym się zajmujemy</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="images/main_image4.jpg"
+                alt="zdjecie 1"
+                width="370"
+                height="294"
+                alt="zdjecie 1"
+              />
+            </li>
+            <li>
+              <img
+                src="images/main_image5.jpg"
+                alt="zdjecie 2"
+                width="370"
+                height="294"
+                alt="zdjecie 2"
+              />
+            </li>
+            <li>
+              <img
+                src="images/main_image6.jpg"
+                alt="zdjecie 3"
+                width="370"
+                height="294"
+                alt="zdjecie 3"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="main_section_4">
+      <section class="main_section_4 section container">
         <h2>Nasz zaspół</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="images/main_image3.jpg"
@@ -162,15 +170,19 @@
         </ul>
       </section>
     </main>
-    <footer class="footer_backgraund_color">
-      <a href="./index.html" class="logo end"><span class="decoration_leters">Web</span>Studio</a>
-      <address>
-        <ul>
-          <li>m. Warszawa, Aleja Jerozolimska 21</li>
-          <li class="footer_address">info@example.com</li>
-          <li class="footer_address">+48 123 456 789</li>
-        </ul>
-      </address>
+    <footer class="footer_backgraund_color container">
+      <div class="">
+        <a href="./index.html" class="logo end link"
+          ><span class="decoration_leters">Web</span>Studio</a
+        >
+        <address>
+          <ul>
+            <li>m. Warszawa, Aleja Jerozolimska 21</li>
+            <li class="footer_address">info@example.com</li>
+            <li class="footer_address">+48 123 456 789</li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
