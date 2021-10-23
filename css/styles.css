@@ -38,7 +38,7 @@ ul {
   margin: 0 auto;
 }
 .section {
-  padding: 94px 0;
+  padding: 0 0 94px;
 }
 /* ----- HEADER ----- */
 .head_container .container {
@@ -62,12 +62,7 @@ ul {
 .start {
   color: #000;
 }
-.end {
-  color: #fff;
-}
-.decoration_leters {
-  color: var(--main-color);
-}
+
 .nav_container {
   display: flex;
 }
@@ -78,6 +73,9 @@ ul {
   font-weight: 600;
   font-size: 14px;
   color: #212121;
+}
+.decoration_leters {
+  color: var(--main-color);
 }
 .adres_link {
   display: flex;
@@ -110,11 +108,17 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.main_section_1 h1 {
+.section_1_items h1 {
   color: #fff;
   font-size: 44px;
   letter-spacing: 6%;
   line-height: 1.363;
+  letter-spacing: 0.06em;
+}
+.section_1_items div {
+  width: 696px;
+  min-height: 120px;
+  text-align: center;
 }
 .button {
   background-color: var(--main-color);
@@ -123,6 +127,7 @@ ul {
   height: 50px;
   width: 200px;
   border-radius: 4px;
+  margin-top: 30px;
 }
 .button:hover {
   transform: scale(1.05);
@@ -133,6 +138,7 @@ ul {
 .main_section_2 ul {
   display: inline-flex;
   list-style: none;
+  margin: 0 215px;
 }
 .main_section_2 li {
   margin: 10px;
@@ -170,24 +176,45 @@ ul {
 
 /* ----- PORTFOLIO MAIN ----- */
 .portfolio_section_1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.portfolio_section_1 ul {
+  display: flex;
 }
 .btn_filtr_portlofio {
   cursor: pointer;
+  height: 38px;
+  margin-right: 8px;
+  padding: 6px 22px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  /* font designed */
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 .btn_filtr_portlofio:hover,
 .btn_filtr_portlofio:focus {
   background-color: var(--main-color);
 }
+
 .portfolio_section_2 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .portfolio_section_2 ul {
-  list-style: none;
-  display: inline-flex;
+  display: flex;
+  margin: 15px;
 }
 .portfolio_section_2 li {
-  margin: 20px;
+  margin: 15px;
 }
 /* ----- END PORTFOLIO MAIN ----- */
 
@@ -198,5 +225,22 @@ ul {
 .footer_backgraund_color {
   background-color: var(--main-bacgraund-color);
   color: #fff;
+}
+
+.footer_designed {
+  min-height: 252px;
+  display: flex;
+  align-items: center;
+}
+.end {
+  color: #fff;
+}
+
+.footer_adress {
+  margin-left: 215px;
+  margin-top: 50px;
+}
+.footer_adress ul li:not(:last-child) {
+  margin-bottom: 30px;
 }
 /* -----END FOOTER ----- */
