@@ -97,9 +97,10 @@ ul {
 /* ----- END HEADER ----- */
 
 /* ----- MAIN MAIN ----- */
-
-.section_1_items {
+.main_section_1 {
   background-color: var(--main-bacgraund-color);
+}
+.section_1_items {
   height: 600px;
   display: flex;
   flex-direction: column;
