@@ -134,6 +134,9 @@ ul {
 .button:active {
   transform: scale(0.95);
 }
+.main_section_2 {
+  padding-top: 94px;
+}
 .main_section_2 ul {
   display: inline-flex;
   list-style: none;
@@ -178,7 +181,7 @@ ul {
 /* ----- END MAIN MAIN ----- */
 
 /* ----- PORTFOLIO MAIN ----- */
-.portfolio_section_1 .container{
+.portfolio_section_1 .container {
   display: flex;
   justify-content: center;
 }
@@ -207,7 +210,7 @@ ul {
   background-color: var(--main-color);
 }
 
-.portfolio_section_2 .container{
+.portfolio_section_2 .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
