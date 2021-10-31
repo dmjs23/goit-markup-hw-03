@@ -178,7 +178,7 @@ ul {
 /* ----- END MAIN MAIN ----- */
 
 /* ----- PORTFOLIO MAIN ----- */
-.portfolio_section_1 {
+.portfolio_section_1 .container{
   display: flex;
   justify-content: center;
 }
@@ -207,7 +207,7 @@ ul {
   background-color: var(--main-color);
 }
 
-.portfolio_section_2 {
+.portfolio_section_2 .container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
