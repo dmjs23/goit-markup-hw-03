@@ -45,8 +45,6 @@ ul {
   display: flex;
   align-items: center;
   min-height: 80px;
-  margin-left: 0 auto;
-  /* margin: 0 auto; */
 }
 .manu {
   display: flex;
@@ -148,9 +146,11 @@ ul {
 }
 .main_section_3 {
   text-align: center;
+  /* padding-top: 94px; */
 }
 .main_section_3 ul {
   display: flex;
+  margin-top: 50px;
 }
 .main_section_3 li {
   margin: auto;
@@ -163,9 +163,11 @@ ul {
 .main_section_4 {
   background-color: var(--secondary-bacgraund-color);
   text-align: center;
+  padding-top: 94px;
 }
 .main_section_4 ul {
   display: inline-flex;
+  margin-top: 50px;
 }
 .main_section_4 li {
   background-color: #fff;
